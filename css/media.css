@@ -1,0 +1,25 @@
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 50px) and (max-width: 575px) { 
+html{
+  font-size: 9;
+}
+
+}
+@media only screen and(min-width: 576px) and (max-width: 767px) { 
+  html{
+    font-size: 12;
+  }
+ 
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width : 1199px) { 
+  html{
+    font-size: 14;
+  }
+
+ }
+

@@ -1,0 +1,46 @@
+
+ body{
+   background-color:black;
+   color: white;
+
+}
+.home{
+    scrollbar-width: none;
+  
+}
+ .side-nav{
+   position: fixed;
+   top: 0;
+   z-index:999;
+ }
+
+ .im-layer{
+   height: 100%;
+   width: 100%;
+   display: flex;
+   justify-content: start;
+   padding-left: 5;
+   align-items: center;
+   color: #000;
+   background-color: #f9f6f6ca;
+   position: absolute;
+   bottom:  -100%;
+   transition:all 1s;
+}
+.item:hover .im-layer{
+   bottom: 0%
+}
+ul{
+   list-style-type: none;
+}
+a:link,a {
+   text-decoration: none;
+   color: white;
+ }
+a:hover{
+   color: white;
+}
+
+li.alert.alert-info.m-2.p-1.text-white{
+   color: darkred !important; 
+}
